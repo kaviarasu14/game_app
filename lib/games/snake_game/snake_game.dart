@@ -63,7 +63,7 @@ class _SnakeGame_pageState extends State<SnakeGame_page> {
         builder: (context) {
           return AlertDialog(
             title: const Text("Game Over"),
-            content: const Text("Your Snake is Collided"),
+            content: const Text("muduchuvitinga..ponga"),
             actions: [
               TextButton(
                   onPressed: () {
@@ -239,7 +239,7 @@ class _SnakeGame_pageState extends State<SnakeGame_page> {
         if (snakeHead == index) {
           return Colors.green;
         } else {
-          return Colors.white.withOpacity(0.9);
+          return Colors.white.withOpacity(0.5);
         }
       } else {
         if (index == foodposition) {
